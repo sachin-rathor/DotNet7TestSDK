@@ -2,14 +2,14 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
-    <LangVersion>8.0</LangVersion>
+<!--     <LangVersion>8.0</LangVersion> -->
 <!--     <RuntimeFrameworkVersion>7.0.100-rc.1.22431.12</RuntimeFrameworkVersion> -->
     <OutputType>Exe</OutputType>
     <RootNamespace>dotnet7</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.8.0" />
-    <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="7.0.0-rc.1.*" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="7.0.100-rc.1.22431.12" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
