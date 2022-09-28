@@ -8,8 +8,8 @@
             }
         }
     },
-    "scripts": {
-        "start": "func start",
-        "test": "echo \"No tests yet...\""
+    "extensionBundle": {
+        "id": "Microsoft.Azure.Functions.ExtensionBundle",
+        "version": "2.*"
     }
 }
